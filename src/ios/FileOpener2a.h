@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface FileOpener2 : CDVPlugin <UIDocumentInteractionControllerDelegate> {
+@interface FileOpener2a : CDVPlugin <UIDocumentInteractionControllerDelegate> {
     NSString *localFile;
 }
 

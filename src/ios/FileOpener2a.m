@@ -1,10 +1,10 @@
-#import "FileOpener2.h"
+#import "FileOpener2a.h"
 #import <Cordova/CDV.h>
 
 #import <QuartzCore/QuartzCore.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
-@implementation FileOpener2
+@implementation FileOpener2a
 @synthesize controller = docController;
 
 - (void) open: (CDVInvokedUrlCommand*)command {
