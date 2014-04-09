@@ -2,6 +2,18 @@ A File Opener Plugin for Cordova
 ==========================
 This plugin will open a file on your device file system with its default application.
 
+Changed iOS-part: 
+	
+	NSURL *fileURL  = [NSURL URLWithString:path]; 
+
+to
+
+	NSURL *fileURL  = [NSURL fileURLWithPath:path]; 
+
+In Cordova 3.4.0 (and above) use entry.toNativeURL() for first parameter.
+Hint: http://stackoverflow.com/questions/21756274/phonegap-ios-why-when-i-get-the-full-path-of-the-filesystem-in-a-device-or-s
+	
+
 Requirements
 -------------
 - Android 4+ / iOS 6+
