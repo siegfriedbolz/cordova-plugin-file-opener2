@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-	xmlns:android="http://schemas.android.com/apk/res/android" id="io.github.siegfriedbolz.cordova.plugins.fileopener2"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	id="io.github.siegfriedbolz.cordova.plugins.fileopener2"
 	version="1.0.5">
 
-	<name>File Opener 2 - Bolz Edition (www.app-consultant.de)</name>
-	<description>A File Opener Plugin for Cordova.</description>
+	<name>File Opener 2 - Bolz Edition</name>
+	<description>A File Opener Plugin for Cordova - Bolz Edition (www.app-consultant.de)</description>
 	<license>MIT</license>
 
 	<engines>
