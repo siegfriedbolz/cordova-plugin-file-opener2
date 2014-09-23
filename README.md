@@ -16,12 +16,18 @@ Hint: http://stackoverflow.com/questions/21756274/phonegap-ios-why-when-i-get-th
 
 Requirements
 -------------
-- Android 4+ / iOS 6+
-- Cordova 3.0 or higher
+- Android 4+ / iOS 6, 7 and 8 (new!)
+- Cordova 3.0 or higher (tested with 3.5)
 
 Installation
 -------------
-    cordova plugin add [url-of-the-git-repo]
+    cordova plugin add https://github.com/siegfriedbolz/cordova-plugin-file-opener2.git
+
+PhoneGap Build
+---------------
+This Plugin is available at the PhoneGap Build Repository:
+- [https://build.phonegap.com/plugins/959][phonegap_959]
+
 
 Usage
 ------
@@ -53,3 +59,4 @@ Open a PDF document with the default PDF reader and optional callback object:
     
 __Please Note that for properly opening a PDF file, you must already have a PDF reader (Acrobat Reader, Foxit Mobile PDF, etc. ) installed on your mobile device. Otherwise this will not work.__
 
+[phonegap_959]: https://build.phonegap.com/plugins/959

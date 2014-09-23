@@ -2,9 +2,9 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android" 
 	id="io.github.siegfriedbolz.cordova.plugins.fileopener2"
-	version="1.0.5">
+	version="1.0.6">
 
-	<name>File Opener 2 - Bolz Edition</name>
+	<name>File Opener 2 for iOS 6, 7 and 8 (new!) / Android 4+ - Bolz Edition</name>
 	<description>A File Opener Plugin for Cordova - Bolz Edition (www.app-consultant.de)</description>
 	<license>MIT</license>
 
